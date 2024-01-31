@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Rating {
-}
+public class Rating {
+        private int star;
+        private Rating next;
+    }
+

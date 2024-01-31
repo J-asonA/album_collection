@@ -1,2 +1,2 @@
-public class DataConstant {
+public class DateConstant {
 }
