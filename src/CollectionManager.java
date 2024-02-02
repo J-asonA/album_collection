@@ -4,13 +4,13 @@ import java.util.List;
 
 public class CollectionManager {
     //get user input thru scanner class
-
-    public void check(){
-        System.out.println("input");
+    public static void check() {
+        System.out.println("Enter Commands:");
         Scanner user_input = new Scanner(System.in).useDelimiter(",");
-        while(){
-            System.out.println(user_input.next());
+//        if (!user_input.toString().equals("Q")) {
+            do {
+                System.out.println(user_input.next());
+            } while (!user_input.toString().equals("Q"));
         }
-    }
-
+//    }
 }
