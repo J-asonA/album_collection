@@ -1,1 +1,1 @@
-New content for the file
+console.log("Hello World");
